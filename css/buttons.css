@@ -1,0 +1,23 @@
+.btndiv {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    background-color: yellowgreen;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.bluebtn {
+    background-image: radial-gradient(#264CD2, #0163DA);
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    border-radius: 17px;
+    margin-right: 10px;
+}
+.link {
+    color: #5179EC;
+    text-decoration: none;
+}
+.text {
+    margin: 0px;
+}
