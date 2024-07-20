@@ -4,16 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-in</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <main>
-        <section>
-            <div>
+    <main class="main">
+
+        <section class="section">
+            
+            <div class="divpic">
+
+                <h1>Sign Up</h1>
+                <p>Privacy policy & terms of service</p>
 
             </div>
-            <div>
-                
+
+            <div class="divinfo">
+                <div class="form">
+                    <form action="">
+                        <label for="username">Username</label>
+                        <br>
+                        <input type="text" name="username" id="username" placeholder="John">
+                        <br>
+                        <label for="e-mail">e-mail</label>
+                        <br>
+                        <input type="text" name="e-mail" id="e-mail" placeholder="John@gmail.com">
+                        <br>
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" name="pass" id="pass">
+                        <br>
+                        <label for="repeat">Repeat password</label>
+                        <br>
+                        <input type="password" name="repeat" id="repeat">
+                        
+                    </form>
+                </div>
+
+                <div class="btn">
+                <a class="bluebtn" href="#">Get Started</a>
+                <p>or <a class="link" href="#"> Sign in</a></p>
+                </div>
             </div>
+
+            <svg class="close" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg">
+                <path d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z">
+                </path>
+            </svg>
+
         </section>
     </main>
 </body>
