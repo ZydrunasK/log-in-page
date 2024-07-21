@@ -1,4 +1,5 @@
 body {
+    background-image: linear-gradient(90deg, purple, skyblue);
     font-family: arial;
 }
 .main{
@@ -30,4 +31,14 @@ body {
     background-color: bisque;
     margin-top: 80px;
     margin-left: 50px;
+}
+label {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: gray;
+}
+input {
+    font-size: 20px;
+    border: none;
+    border-bottom: dotted grey 2px;
 }

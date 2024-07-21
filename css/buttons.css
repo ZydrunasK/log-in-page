@@ -7,11 +7,12 @@
     margin-bottom: 50px;
 }
 .bluebtn {
+    font-size: 20px;
     background-image: radial-gradient(#264CD2, #0163DA);
     color: white;
     text-decoration: none;
-    padding: 10px 35px;
-    border-radius: 17px;
+    padding: 10px 3em;
+    border-radius: 2em;
     margin-right: 10px;
 }
 .link {
@@ -19,5 +20,6 @@
     text-decoration: none;
 }
 .text {
+    font-size: 15px;
     margin: 0px;
 }
