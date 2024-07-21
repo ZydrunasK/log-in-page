@@ -42,3 +42,6 @@ input {
     border: none;
     border-bottom: dotted grey 2px;
 }
+form > p {
+    color: gray;
+}
