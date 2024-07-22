@@ -1,11 +1,10 @@
 .divpic {
-    background-image: url(mountain.jpg);
+    background: url(mountain.webp); 
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: green;
     width: 40%;
     margin-top: 30px;
     margin-bottom: 30px;

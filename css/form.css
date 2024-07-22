@@ -1,14 +1,5 @@
-.divinfo {
-    display: flex;
-    flex-direction: column;
-    background-color: yellow;
-    width: 60%;
-}
 .form {
-    background-color: white;
     margin-top: 80px;
-    margin-left: 50px; 
-    margin-right: 50px;
 }
 form {
     display: flex;
@@ -21,10 +12,10 @@ label {
     color: gray;
 }
 input {
-    margin-bottom: 25px;
+    margin-bottom: 55px;
     font-size: 20px;
     border: none;
-    border-bottom: dotted grey 2px;
+    border-bottom: dotted #cfcfcf 2px;
 }
 form > p {
     color: gray;
