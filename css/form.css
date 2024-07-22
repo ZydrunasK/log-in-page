@@ -4,16 +4,16 @@
     background-color: yellow;
     width: 60%;
 }
-.close {
+.form {
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+form {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    color: grey;
-}
-.form {
-    background-color: bisque;
-    margin-top: 80px;
-    margin-left: 50px;
+    gap: 10px;
 }
 label {
     text-transform: uppercase;
@@ -21,6 +21,7 @@ label {
     color: gray;
 }
 input {
+    margin-bottom: 25px;
     font-size: 20px;
     border: none;
     border-bottom: dotted grey 2px;
