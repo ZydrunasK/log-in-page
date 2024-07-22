@@ -4,9 +4,8 @@ body {
     background: url(mountain.webp);
     background-size: cover;
     background-position: center;
-    /* background: linear-gradient(25deg, #651C7C, #75A5DA , #017A96); */
     font-family: arial;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(50px);
 }
 .main{
     display: flex;
