@@ -1,12 +1,11 @@
 .btndiv {
     display: flex;
-    align-content: flex-start;
     align-items: center;
     margin-bottom: 50px;
 }
 .bluebtn {
     font-size: 20px;
-    background-color: blue;
+    background: linear-gradient(10deg, #223ECC, #048AD4);
     color: white;
     text-decoration: none;
     padding: 10px 3em;
@@ -14,7 +13,17 @@
     margin-right: 10px;
 }
 .link {
-    color: #5179EC;
+    color: #394eb4;
+    text-decoration: none;
+}
+.link:hover {
+    font-size: 1.1em;
+    color: #111d58;
+    text-decoration: none;
+}
+.link:active {
+    font-size: 0.9em;
+    color: #1A2A7B;
     text-decoration: none;
 }
 .text {
@@ -22,8 +31,8 @@
     margin: 0px;
 }
 .bluebtn:hover {
-    background-color: rgb(74, 74, 255);
+    background: linear-gradient(10deg, #3754e4, #19a5f0);
 }
 .bluebtn:active {
-    background-color: rgb(0, 0, 155);
+    background: linear-gradient(10deg, #11299e, #006ca7);
 }
