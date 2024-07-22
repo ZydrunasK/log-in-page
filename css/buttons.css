@@ -8,7 +8,7 @@
 }
 .bluebtn {
     font-size: 20px;
-    background-image: radial-gradient(#264CD2, #0163DA);
+    background-color: blue;
     color: white;
     text-decoration: none;
     padding: 10px 3em;
@@ -22,4 +22,10 @@
 .text {
     font-size: 15px;
     margin: 0px;
+}
+.bluebtn:hover {
+    background-color: rgb(74, 74, 255);
+}
+.bluebtn:active {
+    background-color: rgb(0, 0, 155);
 }
