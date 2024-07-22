@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh;
     background-image: linear-gradient(90deg, purple, skyblue);
     font-family: arial;
 }
