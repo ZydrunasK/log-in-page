@@ -36,3 +36,8 @@
 .bluebtn:active {
     background: linear-gradient(10deg, #11299e, #006ca7);
 }
+@media (max-width: 700px) {
+    .btndiv {
+        justify-content: space-evenly;
+    }
+}
