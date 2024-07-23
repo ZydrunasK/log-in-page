@@ -1,6 +1,7 @@
 .divpic {
-    background: url(mountain.webp); 
-    background-size: cover;
+    background: url(mountain.webp);
+    background-position: center;
+    background-size: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
